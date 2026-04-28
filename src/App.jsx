@@ -6,6 +6,7 @@ import HeavyCalculation from './UseMemo'
 import Callback from './UseCallback'
 import Parent from './Parent'
 import LazyParent from './LazyParent'
+import Fetch from './Fetch'
 function App() {
   
 
@@ -31,6 +32,9 @@ function App() {
       </>
       <>
       <LazyParent/>
+      </>
+      <>
+      <Fetch/>
       </>
     </>
   )
