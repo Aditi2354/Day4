@@ -7,6 +7,7 @@ import Callback from './UseCallback'
 import Parent from './Parent'
 import LazyParent from './LazyParent'
 import Fetch from './Fetch'
+import SearchBar from './SearchBar'
 function App() {
   
 
@@ -35,6 +36,9 @@ function App() {
       </>
       <>
       <Fetch/>
+      </>
+      <>
+      <SearchBar/>
       </>
     </>
   )
