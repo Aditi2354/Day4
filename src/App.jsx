@@ -5,6 +5,7 @@ import DOMvalue from './Useref2'
 import HeavyCalculation from './UseMemo'
 import Callback from './UseCallback'
 import Parent from './Parent'
+import LazyParent from './LazyParent'
 function App() {
   
 
@@ -27,6 +28,9 @@ function App() {
       </>
       <>
       <Parent/>
+      </>
+      <>
+      <LazyParent/>
       </>
     </>
   )

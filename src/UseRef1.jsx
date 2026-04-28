@@ -15,21 +15,19 @@ import { useState, useRef ,useEffect} from 'react';
 
 export default function UseRef1() {
   const [count, setCount] = useState(0);
-  const renderCount = useRef(0);
+  let renderCount = useRef(8);
 
   useEffect(() => {
     renderCount.current++;
   });
 function handleClick(){
-   renderCount.current = renderCount.current+1
-   alert (renderCount.current.value)
-   console.log('useref',renderCount.current)
+   renderCount.current.value = 2
 }
   return (
     <div>
-      <p>Count: {count}</p>
+      {/* <p>Count: {renderCount.current.value}</p> */}
       <button onClick={() => setCount(count + 1)}>Increment</button>
-      
+      <span></span>
       <button onClick={handleClick}>Click here</button>
     </div>
 
