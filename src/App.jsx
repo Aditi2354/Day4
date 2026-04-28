@@ -4,6 +4,7 @@ import UseRef1 from './UseRef1'
 import DOMvalue from './Useref2'
 import HeavyCalculation from './UseMemo'
 import Callback from './UseCallback'
+import Parent from './Parent'
 function App() {
   
 
@@ -23,6 +24,9 @@ function App() {
       </>
       <>
       <Callback/>
+      </>
+      <>
+      <Parent/>
       </>
     </>
   )
