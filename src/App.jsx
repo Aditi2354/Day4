@@ -1,6 +1,7 @@
 
 import './App.css'
 import UseRef1 from './UseRef1'
+import DOMvalue from './Useref2'
 function App() {
   
 
@@ -8,6 +9,12 @@ function App() {
     <>
       <div>
       <UseRef1/>
+      </div>
+
+      <br></br>
+      <br></br>
+      <div>
+        <DOMvalue/>
       </div>
     </>
   )
